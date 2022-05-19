@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" media="screen" type="text/css" href={{url_for('static', filename='style.css')}}/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <title>Portfolium</title>
+</head>
+
+<body>
+
+    <i class="bi bi-list menu-mobile"></i>
+
+    <aside id="header">
+        <section class="profile">
+            <img src="static\img\eunotrabalho.jpeg" alt="Foto do perfil" width="500px">
+            <h1> Bruno Dambros </h1>
+            <div class="socials mt-4 text-center">
+                <a target="_blank" href="https://www.linkedin.com/in/bruno-uhlick-dambros-6b6312225/">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a target="_blank" href="https://github.com/dambrosbruno">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/bruhlickd">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+        <nav id="navbar" class="nav-menu">
+            <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house"></i>Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sobre"><i class="bi bi-newspaper"></i>Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="#formacao"><i class="bi bi-book"></i>Formação</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#habilidades"><i class="bi bi-wrench-adjustable"></i>Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#curriculum"><i class="bi bi-folder"></i>Curriculum</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#contato"><i class="bi bi-envelope"></i>Contato</a></li>
+            </ul>
+        </nav>
+
+    </aside>
+
+    <main id="main">
+
+        <section id="inicio" class="row m-0 p-0">
+            <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
+                <h2 class="text-shadow">Bruno Uhlick D'ambros</h2>
+                <span id="subtitle" class="text-shadow">Ciências Sociais e Tecnologia</span>
+            </div>
+            <div class="col-md-7 d-flex justify-content-end align-items-end">
+                <div id="arraste" class="d-flex align-items-center">
+                    <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
+                    <a href="#sobre">Arraste para mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="container mt-5">
+
+            <div class="col-md-12">
+                <h1 class="pt-3">Sobre</h1>
+                <img src="static\img\180522.jpeg" alt="foto minha" class="img-fluid col-md-5 shadow">
+                <p>O que é uma identidade? Quando eu digo "eu sou" o que quero dizer com isso? Afirmar que se é algo ou alguém é construir uma identidade, de modo que é propriamente a afirmação do que se é, a própria identidade. Portanto, neste ponto de visto, a afirmação sobre o que se é já é mesmo uma afirmação sobre como se quer ser visto. Tudo isso parece um grande subjetivismo. Se for assim, então o "ser" depende do que se deseja ser ou do que se afirma ser, mas não algo que se é objetivamente. Temos dois aspectos aqui: primeiro, há uma realidade objetiva sobre o mundo; segundo, há uma realidade subjetiva sobre o mundo. Há o mundo real, e há o mundo da fantasia. O mundo das afirmações próprias sobre si mesmo, o mundo psicológico e social, é um mundo que partilha muito mais deste mundo da fantasia do que do mundo real. Então, afirmar algo sobre sua própria identidade é mais uma fantasia do que uma realidade. Primeiro porque não sabemos exatamente quem somos, o que gostamos, o que queremos ser e afirmamos coisas rasas sobre isso. Segundo porque a realidade que se impõe sobre nós é muito maior e mais forte, e sabemos que nossa fantasia nunca irá vencê-la. Estamos em conflito: a realidade contra nossa fantasia, os fatos contra nossos valores, a objetividade contra nossa subjetividade. Mas dizer "eu sou", pelo menos se não pode mudar o mundo dos fatos, pode criar um mundo da fantasia. E no mundo social todos querem fabricar uma.</p>
+                <p>Eu tenho muitos interresses. Eles vão desde música clássica até indie rock, de HQ's até Tolstoy, de programação até jiu-jitsu. </p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="bi bi-person"></i>Nome completo: </li>
+                        <li class="list-group-item"><i class="bi bi-star"></i>Nascimento: </li>
+                        <li class="list-group-item"><i class="bi bi-book"></i>Formação: </li>
+                        <li class="list-group-item"><i class="bi bi-eyeglasses"></i>Interesses: </li>
+                        <li class="list-group-item"><i class="bi bi-translate"></i>Idiomas: </li>
+                        <li class="list-group-item"><i class="bi bi-bicycle"></i>Hobbies: </li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fw-lighter"></i></i>Bruno Rodrigo Uhlick D'ambros</li>
+                        <li class="list-group-item fw-lighter"></i></i>1º de maio de 1987</li>
+                        <li class="list-group-item fw-lighter"></i></i>Graduação em Ciências Sociais, Mestrado e Doutorado em Filosofia</li>
+                        <li class="list-group-item fw-lighter"></i></i>Política, Ética, Segurança Pública, Tecnologia, Python</li>
+                        <li class="list-group-item fw-lighter"></i></i>Inglês, Italiano, Espanhol e Francês</li>
+                        <li class="list-group-item fw-lighter"></i></i>Programação, Jiu-Jitsu, Música</li>
+                    </ul>
+                </div>
+            </div>   
+                                 
+        </section>
+
+        <section id="formacao" class="container mt-5">
+            <div class="col-md-12">
+                <h1 class="pt-3">Formação</h1>
+                <p>Ao longo de minha vida estudei sempre, muito e muitos temas: música, tecnologia, sociologia, filosofia... Mas acabei por me formar (formalmente) na área de Ciências Sociais e me especializei em filosofia moral (mais especificamente sobre o tema do naturalismo moral). Após um período de estudos na Universidade Hebraica de Jerusalém eu me convenci de que o futuro é a tecnologia. As ciências humanas chegaram em um ponto de exaustão, onde abandonaram os dados, e não há ciência alguma sem dados objetivos. Isso me fez migrar gradativamente para a análise de dados e posteriormente para a programação. Hoje uso Python, HTML, CSS e MySQL. Ao longo da minha vida acadêmica publiquei também alguns artigos. Abaixo mostro alguns deles:</p>
+            </div>
+        </section>
+
+        <section id="habilidades" class="container mt-5">
+
+            <div class=".row.w-100">
+                <div class="col-md-12">
+                    <h1 class="pt-3">Habilidades</h1>
+                    <p>Posso dividir minhas habilidades em hard-skills e soft-skills. Algumas possuo mais que outras. Algumas são habilidades técnicas, outras comportamentais. Elenco elas aqui de acordo com a porcentagem que acredito que as possuo.</p>
+                </div>               
+            </div>
+
+        </section>
+
+        <section id="curriculum" class="cv mt-5">            
+            <div class="container pb-5">
+                <h1 class="pt-3 pb-4">Curriculum</h1>
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <h2 class="cv-title">Educação</h2>
+                        <div class="cv-item">
+                            <h3>Visitor research fellow</h3>
+                            <h4>2018-2019</h4>
+                            <h5><em>The Hebrew University of Jerusalem</em></h5>
+                            <h6>Período sandwich no departamento de ciência política da Universidade Hebraica de Jerusalem para confecção da tese doutoral</h6>
+                        </div>
+                        <div class="cv-item">
+                            <h3>Doutorado</h3>
+                            <h4>2017-2021</h4>
+                            <h5><em>Universidade Federal do Paraná</em></h5>
+                            <h6>Doutorado em filosofia na UFPR, com tese na área de moral, ética e política sobre a origem e desenvolvimento da noção de justiça natural.</h6>
+                        </div>
+                        <div class="cv-item">
+                            <h3>Mestrado</h3>
+                            <h4>2015-2016</h4>
+                            <h5><em>Universidade Federal de Pelotas</em></h5>
+                            <h6>Mestrado em filosofia na UFPEL, com dissertação na área de moral, ética e política sobre direito natural em Tomás de Aquino</h6>
+                        </div>
+                        <div class="cv-item">
+                            <h3>Graduação</h3>
+                            <h4>2011-2014</h4>
+                            <h5><em>Universidade Federal de Santa Catarina</em></h5>
+                            <h6>Bacharelado em Ciências Sociais, com monografia na área de ciência política sobre a origem da democracia grega.</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h2 class="cv-title">Profissional</h2>
+                        <div class="cv-item">
+                            <h3>Técnico administrativo</h3>
+                            <h4>2021-Atual</h4>
+                            <h5><em>Secretaria de Estado de Administração Prisional</em></h5>
+                            <h6>Atuação em atividades administrativas e análise de dados, com confecção de mapa digital para georreferenciamento de menores infratores no estado com linguagem Python, bibliotecas Pandas, Folium, Flask e HTML</h6>
+                        </div>
+                        <div class="cv-item">
+                            <h3>Analista administrativo</h3>
+                            <h4>2019</h4>
+                            <h5><em>Forquim Serviços</em></h5>
+                            <h6>Atuação em atividades administrativas e análise de dados, com utilização de ferramentas como Excel e Microsoft BI.</h6>
+                        </div>
+                        <div class="cv-item">
+                            <h3>Professor de idiomas</h4>
+                            <h4>2019</h4>
+                            <h5><em>Centro Europeu</em></h5>
+                            <h6>Ensino de inglês e italiano para ampla faixa etária em turmas entre 5 e 15 alunos</h6>
+                        </div>
+                    </div> 
+
+                    <div class="col-md-6">
+                        <h2 class="cv-title">Habilidades</h2>
+                        <div class="cv-item">
+                            <h6 class="mt-3 mb=0">HTML</h6>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                            </div>        
+                            <h6 class="mt-3 mb=0">Python</h6>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>        
+                            <h6 class="mt-3 mb=0">Java Script</h6>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                            </div>        
+                            <h6 class="mt-3 mb=0">SQL</h6>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            </div>        
+                        </div>     
+                    </div>
+
+                    <div class="col-md-6">
+                        <h2 class="cv-title">Idiomas</h2>
+                        <div class="cv-item">
+                            <h6 class="mt-3 mb=0">Inglês</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>        
+                            <h6 class="mt-3 mb=0">Italiano</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 98%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>        
+                            <h6 class="mt-3 mb=0">Espanhol</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>        
+                            <h6 class="mt-3 mb=0">Francês</h6>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <h2 class="cv-title">Publicações</h2>                                  
+                        <div class="cv-item">                            
+                            <ul class="list-group list-group-flush">
+                                <h6><li class="list-group-item"><a href="./download/artigo1.pdf"><i class="bi bi-file-earmark-pdf"></i></i>As funções da razão no De Officcis de Cícero. </a></li></h6>
+                                <h6><li class="list-group-item"><i class="bi bi-file-earmark-pdf"></i>Naturalismo moral no Lucullus de M. T. Cícero</li></h6>
+                                <h6><li class="list-group-item"><i class="bi bi-file-earmark-pdf"></i>Epistemologia e praxeologia moral no jusnaturalismo clássico</li></h6>
+                                <h6><li class="list-group-item"><i class="bi bi-file-earmark-pdf"></i>A reorganização territorial ática sob Clístenes</li></h6>
+                                <h6><li class="list-group-item"><i class="bi bi-file-earmark-pdf"></i>Entre o público e o privado: o problema da justiça política e econômica na Ética Nicomaquéia V</li></h6>
+                                <h6><li class="list-group-item"><i class="bi bi-file-earmark-pdf"></i>Filosofia da economia e do direito natural no baixo medievo</li></h6>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contato" class="pt-5 pb-5">
+
+            <div class="container mb-5">
+
+                <h1>Contato</h1>
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="card p-4 h-100 shadow border-2">
+                            <div class="endereco">
+                                <h5><i class="bi bi-geo-alt"></i>Localização</h5>
+                                <p>Florianópolis, SC</p>   
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d625.1161539261633!2d-48.577528057039494!3d-27.587608315373764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952737e76a4835df%3A0xa098daa334dc6235!2zMjfCsDM1JzE1LjMiUyA0OMKwMzQnMzkuOSJX!5e0!3m2!1spt-BR!2sbr!4v1652900961955!5m2!1spt-BR!2sbr" width="300" height="300" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                            </div>
+                        </div>             
+                    </div>
+
+                    <div class="col-md-6 mt-5 mt-md-0">
+                        <div class="card p-4 h-100 shadow border-2"> 
+                            <div class="email">
+                                <h5><i class="bi bi-envelope"></i>Mensagem</h5>
+                            </div>
+                            <form class="row g-3">
+                                <div class="col-md-12">
+                                  <input type="email" requerided class="form-control" id="inputEmail4" placeholder="seu email">
+                                </div>
+                                <div class="col-12">
+                                  <input type="text" requerided class="form-control" id="inputAddress" placeholder="Endereço">
+                                </div>
+                                <div class="col-md-12">
+                                  <input type="text" requerided class="form-control" id="inputCity" placeholder="Cidade">
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea type="text" requerided class="form-control" id="mensagem" name="mensagem" rows="10" placeholder="Escreva sua mensagem..."></textarea>
+                                </div>                                
+                                <div class="col-12 d-flex justify-content-center">
+                                  <button type="submit"  class="btn btn-outline-secondary mt-2">Enviar</button>
+                                </div>
+                            </form>                        
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="./static/bootstrap/js/bootstrap.bundle.min.js"></script>        
+    <script src="./static/script.js"></script>
+
+</body>
+
+</html>
